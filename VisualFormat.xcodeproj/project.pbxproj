@@ -15,6 +15,7 @@
 		393298AE1B9EB64400616476 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 393298AD1B9EB64400616476 /* Images.xcassets */; };
 		393298B11B9EB64400616476 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 393298AF1B9EB64400616476 /* LaunchScreen.xib */; };
 		393298BD1B9EB64400616476 /* VisualFormatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 393298BC1B9EB64400616476 /* VisualFormatTests.m */; };
+		393298C81B9EBC2500616476 /* MyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 393298C71B9EBC2500616476 /* MyLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		393298B61B9EB64400616476 /* VisualFormatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisualFormatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		393298BB1B9EB64400616476 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		393298BC1B9EB64400616476 /* VisualFormatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VisualFormatTests.m; sourceTree = "<group>"; };
+		393298C61B9EBC2500616476 /* MyLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLabel.h; sourceTree = "<group>"; };
+		393298C71B9EBC2500616476 /* MyLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,8 @@
 				393298A21B9EB64400616476 /* AppDelegate.m */,
 				393298A71B9EB64400616476 /* ViewController.h */,
 				393298A81B9EB64400616476 /* ViewController.m */,
+				393298C61B9EBC2500616476 /* MyLabel.h */,
+				393298C71B9EBC2500616476 /* MyLabel.m */,
 				393298AA1B9EB64400616476 /* Main.storyboard */,
 				393298AD1B9EB64400616476 /* Images.xcassets */,
 				393298AF1B9EB64400616476 /* LaunchScreen.xib */,
@@ -222,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				393298C81B9EBC2500616476 /* MyLabel.m in Sources */,
 				393298A31B9EB64400616476 /* AppDelegate.m in Sources */,
 				393298A61B9EB64400616476 /* VisualFormat.xcdatamodeld in Sources */,
 				393298A91B9EB64400616476 /* ViewController.m in Sources */,
@@ -354,6 +360,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = VisualFormat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -364,6 +371,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = VisualFormat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
